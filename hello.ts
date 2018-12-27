@@ -1,3 +1,11 @@
-import {capitalize} from 'lodash';
+declare module NodeJS {
+  interface Global {
+    message: string
+  }
+}
 
-console.log("Hello, " + capitalize("typescript") + "!");
+declare let message: string;
+
+global.message = "Hello, typescript";
+
+console.log(message);

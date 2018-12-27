@@ -1,6 +1,5 @@
 {
   "scripts": {
-    "tsc": "tsc && node hello.js",
     "demo": "ts-node hello.ts"
   },
   "dependencies": {
@@ -8,6 +7,7 @@
   },
   "devDependencies": {
     "@types/lodash": "4.14.106",
+    "@types/node": "10.12.18",
     "ts-node": "7.0.0",
     "typescript": "3.0.1"
   }
