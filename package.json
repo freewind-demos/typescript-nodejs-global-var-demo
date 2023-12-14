@@ -1,14 +1,14 @@
 {
-  "scripts": {
-    "demo": "ts-node hello.ts"
-  },
-  "dependencies": {
-    "lodash": "4.17.5"
-  },
-  "devDependencies": {
-    "@types/lodash": "4.14.106",
-    "@types/node": "10.12.18",
-    "ts-node": "7.0.0",
-    "typescript": "3.0.1"
-  }
+    "scripts": {
+        "start": "ts-node hello.ts"
+    },
+    "dependencies": {
+        "lodash": "4.17.5"
+    },
+    "devDependencies": {
+        "@types/lodash": "4.14.106",
+        "@types/node": "10.12.18",
+        "ts-node": "7.0.0",
+        "typescript": "3.0.1"
+    }
 }
